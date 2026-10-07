@@ -1,0 +1,67 @@
+#body {
+    background-color: rgb(232, 231, 207);
+}
+
+@font-face {
+  font-family: Redaction;
+  src: url(Redaction35-Regular.otf);
+}
+
+#logotop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 84;
+    width: 118;
+}
+
+#portfolio {
+    position: relative;
+    font-family: Redaction;
+    color: white;
+    text-decoration: none;
+    font-size: large;
+}
+
+
+
+#logo {
+    position: relative;
+    height: 252;
+    width: 354;
+    padding-bottom: 20vh;
+}
+
+#desc {
+    font-family: Redaction;
+    position: relative;
+     font-size: 3vh;
+     top: 18vh;
+     margin-top: 0;
+     right: 300;
+     padding-bottom: 20vh;
+}
+
+#introduction {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(197, 175, 147);
+}
+
+#portfolioimage:hover {
+    top: -10px;
+}
+
+#portfolioimage {
+    position: relative;
+    height: 200px;
+    width: 500px;
+    border-radius: 15px;
+    padding-bottom: 10vh;
+    transition: all 2s;
+    top: 0;
+}
+
