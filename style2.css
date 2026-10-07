@@ -1,5 +1,6 @@
 #body {
     background-color: rgb(232, 231, 207);
+    overflow: hidden;
 }
 
 @font-face {
@@ -22,6 +23,8 @@
     text-decoration: none;
     font-size: large;
     bottom: 15vh;
+    rotate: 270deg;
+    right: 0;
 }
 
 #musepod {
@@ -32,7 +35,8 @@
     font-size: large;
     z-index: 10;
     bottom: 5vh;
-
+    rotate: 270deg;
+    right: 0;
 }
 
 #logo {
@@ -46,9 +50,9 @@
     font-family: Redaction;
     position: relative;
      font-size: 3vh;
-     top: 18vh;
+     top: 14vh;
      margin-top: 0;
-     right: 300;
+     right: 17.5vw;
      padding-bottom: 20vh;
 }
 
@@ -63,7 +67,7 @@
 }
 
 #portfolioimage:hover {
-    top: -50px;
+    bottom: -170px;
 }
 
 #portfolioimage {
@@ -71,12 +75,13 @@
     height: 200px;
     width: 500px;
     border-radius: 15px;
-    padding-bottom: 15vh;
     transition: all 0.5s;
-    top: 0;
+    bottom: -190;
+    left: 48vh
 }
+
 #musepodimage:hover {
-    top: -50px;
+    bottom: -170px;
 }
 
 #musepodimage {
@@ -84,21 +89,56 @@
     height: 200px;
     width: 500px;
     border-radius: 15px;
-    padding-bottom: 12vh;
     transition: all 0.5s;
-    top: 0;
+    bottom: -190;
+    left: 10vh
 }
 
-#box {
-    background-color: rgb(171, 17, 17);
-    height: 150px;
-    width: 520px;
+#aboutme {
+    position: absolute;
+    font-family: Redaction;
+    color: white;
+    text-decoration: none;
+    font-size: large;
+    border-radius: 15px;
+    text-align: center;
+    top: 25vh;
+    left: 40vw;
+    background-color: rgb(161, 144, 121);
+    height: 40vh;
+    width: 20vw;
+}
+#aboutmeimage {
+    position: relative;    
+    height: 15vh;
+    width: 6.5vw;
+    border-radius: 7px;
+}
+#tape {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 6vh;
+    width: 5vw;
+    z-index: 10;
+    top: 31.5vh;
+    left: 47.5vw;
+    rotate: 350deg;
+}
+
+#aboutmetext {
     position: relative;
-    z-index: 100;
-    right: 10;
-    margin-top: 550px;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-    border: 5px;
-    border-color: black;
+    font-family: redaction;
+    font-size: 2.5vh;
+}
+
+#sitepages{
+    position: absolute;
+    right: 2vw;
+    top: 0.2vh;
+    margin-top: 0;
+    font-family: redaction;
+    font-size: 1.5vh;
+    color: white;
+    text-decoration: underline;
 }
