@@ -142,3 +142,9 @@
     color: white;
     text-decoration: underline;
 }
+
+#arrow {
+    position: absolute;
+    right: 14vw;
+    top: 1vh;
+}
