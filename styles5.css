@@ -67,7 +67,7 @@
 }
 
 #portfolioimage:hover {
-    bottom: -170px;
+    bottom: -17vh;
 }
 
 #portfolioimage {
@@ -76,12 +76,12 @@
     width: 29vw;
     border-radius: 15px;
     transition: all 0.5s;
-    bottom: -190;
+    bottom: -25vh;
     left: 50vh
 }
 
 #musepodimage:hover {
-    bottom: -170px;
+    bottom: -17vh;
 }
 
 #musepodimage {
@@ -90,7 +90,7 @@
     width: 29vw;
     border-radius: 15px;
     transition: all 0.5s;
-    bottom: -190;
+    bottom: -25vh;
     left: 10vh
 }
 
@@ -102,33 +102,25 @@
     font-size: large;
     border-radius: 15px;
     text-align: center;
-    top: -30vh;
+    top: -40vh;
     left: 40vw;
     background-color: rgb(161, 144, 121);
-    height: 40vh;
+    height: 50vh;
     width: 20vw;
     transition: all 0.5s;
 }
 #aboutmeimage {
     position: relative;    
-    height: 15vh;
-    width: 6.5vw;
+    height: 25.5vh;
+    width: 11.5vw;
     border-radius: 7px;
-}
-#tape {
-    position: relative;
-    top: 0;
-    left: 0;
-    height: 6vh;
-    width: 5vw;
-    z-index: 10;
-    rotate: 350deg;
 }
 
 #aboutmetext {
     position: relative;
     font-family: redaction;
     font-size: 2.5vh;
+    top: 2vh
 }
 
 #sitepages{
