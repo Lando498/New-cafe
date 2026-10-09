@@ -123,17 +123,6 @@
     top: 2vh
 }
 
-#sitepages{
-    position: absolute;
-    right: 2vw;
-    top: 0.2vh;
-    margin-top: 0;
-    font-family: redaction;
-    font-size: 1.5vh;
-    color: white;
-    text-decoration: underline;
-}
-
 #arrow {
     position: absolute;
     right: 14vw;
@@ -143,4 +132,39 @@
 
 #aboutme:hover {
     top: -1vh;
+}
+#gitlink{
+    color: white;
+    font-family: Redaction;
+    text-decoration: none;
+    font-size: 3vh;
+    
+}
+#gitlink:hover {
+    color: rgb(232, 231, 207);
+}
+#gitlogo {
+    height: 3vh;
+    width: 3vh;
+}
+#socials {
+    z-index: 100;
+    position: relative;
+    right: 2vw;
+    top: calc(50% - 8vh);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 18vh;
+    width: 20vw;
+    border-radius: 10px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    background-color: rgb(161, 144, 121);
+}
+#SocialsHeader {
+    font-family: Redaction;
+    color: white;
+    text-decoration: underline;
+    margin-bottom: 1vh;
 }
