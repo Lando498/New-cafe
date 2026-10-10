@@ -168,3 +168,13 @@
     text-decoration: underline;
     margin-bottom: 1vh;
 }
+
+#web {
+    position: absolute;
+    top: -1vw;
+    left: -1vh;
+    height: 45vh;
+    width: 15vw;
+    background-image:url("web.png");
+    background-size: cover;
+}
