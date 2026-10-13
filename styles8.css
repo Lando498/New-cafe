@@ -1,6 +1,8 @@
 #body {
     background-color: rgb(232, 231, 207);
     overflow: hidden;
+        cursor: url('frame1.png'), auto;
+    animation: animatedCursor 0.8s steps(4) infinite;
 }
 
 @font-face {
@@ -177,4 +179,12 @@
     width: 15vw;
     background-image:url("web.png");
     background-size: cover;
+}
+	@keyframes animatedCursor {
+  0%   { cursor: url('frame_0_delay-0.1s.gif'), auto; }
+  25% { cursor: url('frame_1_delay-0.1s.gif'), auto; }
+  50% { cursor: url('frame_2_delay-0.1s.gif'), auto; }
+  75% { cursor: url('frame_3_delay-0.1s.gif'), auto; }
+  100% { cursor: url('frame_4_delay-0.1s.gif'), auto; }
+
 }
