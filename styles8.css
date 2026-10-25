@@ -18,6 +18,16 @@
     width: 118;
 }
 
+#arcade {
+    z-index: 1000;
+    position: absolute;
+    bottom: 2vh;
+    height: 288px;
+    width: 187px;
+    background-size: contain;
+    background-image: url("arcade machine.png");
+}
+
 #portfolio {
     position: absolute;
     font-family: Redaction;
@@ -54,7 +64,7 @@
      font-size: 3vh;
      top: 14vh;
      margin-top: 0;
-     right: 22.5%;
+     left: -19vw;
      padding-bottom: 20vh;
 }
 
